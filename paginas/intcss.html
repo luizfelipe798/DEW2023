@@ -5,15 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introdução ao CSS</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <style>
+        span {
+            background-color: blueviolet;
+        }
+
+        body {
+            font-family: courier;
+        }
+    </style>
 </head>
-<body>
+<body style="font-family: courier;">
     <h1>Introdução ao CSS</h1>
-    <h2>Formas de incluir CSS às páginas</h2>
+    <h2>Formas de incluir <span>CSS</span> às páginas</h2>
     <ol>
-        <li>CSS inline - Na própria TAG</li>
+        <li style="background-color:red;"><span>CSS inline</span> - Na própria TAG</li>
         <li>CSS interno ou incorporado - colocado dentro do <span>HEAD</span> da página</li>
     <div>
         <li>CSS externo - arquivo separado da página html (padrão de uso)</li>
+        <p>texto1<strong>texto2<a href="">texto3</a>texto4</strong>texto5</p>
     </div>
     </ol>
 </body>
