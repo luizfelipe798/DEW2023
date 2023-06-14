@@ -1,0 +1,28 @@
+* {
+    margin: 0; /*Tira a margem de todos os elementos da página*/
+    padding: 0; /*Tira a distância entre o conteúdo do elemento e sua borda */
+}
+
+body {
+    background-color: aqua; /*Coloca uma cor de fundo no corpo da página*/
+}
+
+form {
+    display: flex; /*Faz com que possamos manipular os displays de todos os elementos filhos deste flex container*/
+    margin: 0 auto; /*Centraliza o formulário*/
+    width: 500px; /*Define o comprimento do campo do formulário*/
+    height: 700px; /*Define a altura do campo do formulário*/
+}
+
+.form {
+    display: flex; /*Faz com que possamos manipular os displays de todos os elementos filhos deste flex container*/
+    flex-direction: column; /*Faz com que todos os elementos sejam organizados em uma coluna e, assim, faz com que eles fiquem um em cima do outro*/
+}
+
+.form h1, label, input, button {
+    margin-top: 5px; /*Define a margem de cima dos elementos selecionados, fazendo com que eles estejam espaçados de cima e, conseuquentemente, para baixo*/
+}
+
+.form h1 {
+    color: brown; /*Define a cor da fonte do cabeçalho selecionado*/
+}
