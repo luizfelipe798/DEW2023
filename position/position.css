@@ -1,0 +1,28 @@
+* {
+margin: 0;
+padding: 0;
+} /*Zera toda a configuração padrão de todos os elementos da página web*/
+
+body {
+    background-color: darkgray; /*Muda a cor de fundo da página*/
+}
+
+h1 {
+    margin-bottom: 20px; /*Coloca uma margem apenas na parte de baixo do elemento, possibilitando que haja um espaçamento*/
+}
+
+h1, p {
+    position: relative; /* É usado quando queremos alterar a posição de um elemento tendo como referência a posição inicial dele. */
+    width: 750px; /* Altera o comprimento do texto, deixando suas linhas maiores ou menores. */
+    left: 5px; /* Define a distância do texto em relação ao canto esquerdo da página web. */
+    color: white; /* Define a cor do texto. */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*Define qual vai ser a fonte do texto. */
+}
+
+img {
+    position: absolute; /*Neste caso, ele é usado para posicionar os elementos a partir do canto esquerdo da página web. */
+    left: 930px; /* Define sua posição horizontal em relação ao canto esquerdo da página web. Quanto maior a quantidade de pixeis, mais distante a imagem estará do canto esquerdo da página web . */
+    top: 55px; /*Define a distância entre o topo da página web e a imagem. */
+    width: 300px; /*Define o comprimento da imagem. */
+    height: 300px; /*Define a altura da imagem. */
+}
