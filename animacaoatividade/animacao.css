@@ -39,60 +39,131 @@ header h1 {
     height: 91px;
     background-color: #1f9324;
     border-radius: 9px;
+    animation-fill-mode: forwards;
 }
 
 @keyframes q1 {
-    0% {left: 0;}
-    25% {left: 12.5%;}
-    50% {left: 25%;}
-    75% {left: 37.5%;}
-    100% {left: 50%;}
+    0% {left: 0; top: 190px;}
+    25% {left: 12.5%; top: 190px;}
+    50% {left: 25%; top: 190px;}
+    75% {left: 37.5%; top: 190px;}
+    100% {left: 50%; top: 190px;}
 }
 
 @keyframes q2 {
-    0% {left: 0;}
-    25% {left: 12.5%;}
-    50% {left: 37.5%;}
-    75% {left: 50%;}
-    100% {left: 59%; top: -91px;}
+    0% {left: 0; top: 190px;}
+    25% {left: 12.5%; top: 190px;}
+    50% {left: 37.5%; top: 190px;}
+    75% {left: 50%; top: 190px;}
+    100% {left: 59%; top: 190px;}
 }
 
 @keyframes q3 {
-    0% {left: 0;}
-    25% {left: 12.5%}
-    50% {left: 27.5%; top: -79px;}
-    75% {left: 31%; top: -79px;}
-    100% {left: 41.0%; top: -79px;}
+    0% {left: 0; top: 301px;}
+    25% {left: 12.5%; top: 301px;}
+    50% {left: 37.5%; top: 301px;}
+    75% {left: 50%; top: 301px;}
+    100% {left: 41%; top: 301px;}
 }
 
 @keyframes q4 {
-    0% {left: 0;}
-    25% {left: 9.5%; top: -171px;}
-    50% {left: 21%; top: -171px;}
-    75% {left: 34.5%; top: -171px;}
-    100% {left: 50%; top: -171px;}
+    0% {left: 0; top: 301px;}
+    25% {left: 12.5%; top: 301px;}
+    50% {left: 25%; top: 301px;}
+    75% {left: 37.5%; top: 301px;}
+    100% {left: 50%; top: 301px;}
+}
+
+@keyframes q5 {
+    0% {left: 0; top: 412px;}
+    25% {left: 12.5%; top: 412px;}
+    50% {left: 37.5%; top: 412px;}
+    75% {left: 50%; top: 412px;}
+    100% {left: 41%; top: 412px;}
+}
+
+@keyframes q6 {
+    0% {left: 0; top: 412px;}
+    25% {left: 12.5%; top: 412px;}
+    50% {left: 25%; top: 412px;}
+    75% {left: 37.5%; top: 412px;}
+    100% {left: 50%; top: 412px;}
+}
+
+@keyframes q7 {
+    0% {left: 0; top: 412px;}
+    25% {left: 12.5%; top: 412px;}
+    50% {left: 37.5%; top: 412px;}
+    75% {left: 50%; top: 412px;}
+    100% {left: 59%; top: 412px;}
+}
+
+@keyframes q8 {
+    0% {left: 0; top: 523px;}
+    25% {left: 12.5%; top: 523px;}
+    50% {left: 37.5%; top: 523px;}
+    75% {left: 50%; top: 523px;}
+    100% {left: 41%; top: 523px;}
+}
+
+@keyframes q9 {
+    0% {left: 0; top: 523px;}
+    25% {left: 12.5%; top: 523px;}
+    50% {left: 25%; top: 523px;}
+    75% {left: 37.5%; top: 523px;}
+    100% {left: 50%; top: 523px;}
 }
 
 #q1 {
-    position: relative;
+    position: absolute;
     animation-name: q1;
-    animation-duration: 2s;
+    animation-duration: 4s;
 }
 
 #q2 {
-    position: relative;
+    position: absolute;
     animation-name: q2;
-    animation-duration: 2s;
+    animation-duration: 4s;
 }
 
 #q3 {
-    position: relative;
+    position: absolute;
     animation-name: q3;
-    animation-duration: 2s;
+    animation-duration: 4s;
 }
 
 #q4 {
-    position: relative;
+    position: absolute;
     animation-name: q4;
-    animation-duration: 2s;
-}   
+    animation-duration: 4s;
+}
+
+#q5 {
+    position: absolute;
+    animation-name: q5;
+    animation-duration: 4s;
+}
+
+#q6 {
+    position: absolute;
+    animation-name: q6;
+    animation-duration: 4s;
+}
+
+#q7 {
+    position: absolute;
+    animation-name: q7;
+    animation-duration: 4s;
+}
+
+#q8 {
+    position: absolute;
+    animation-name: q8;
+    animation-duration: 4s;
+}
+
+#q9 {
+    position: absolute;
+    animation-name: q9;
+    animation-duration: 4s;
+}
