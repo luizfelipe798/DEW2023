@@ -51,7 +51,26 @@ header h1 {
 
 @keyframes q2 {
     0% {left: 0;}
-    25% {}
+    25% {left: 12.5%;}
+    50% {left: 37.5%;}
+    75% {left: 50%;}
+    100% {left: 59%; top: -91px;}
+}
+
+@keyframes q3 {
+    0% {left: 0;}
+    25% {left: 12.5%}
+    50% {left: 27.5%; top: -79px;}
+    75% {left: 31%; top: -79px;}
+    100% {left: 41.0%; top: -79px;}
+}
+
+@keyframes q4 {
+    0% {left: 0;}
+    25% {left: 9.5%; top: -171px;}
+    50% {left: 21%; top: -171px;}
+    75% {left: 34.5%; top: -171px;}
+    100% {left: 50%; top: -171px;}
 }
 
 #q1 {
@@ -59,3 +78,21 @@ header h1 {
     animation-name: q1;
     animation-duration: 2s;
 }
+
+#q2 {
+    position: relative;
+    animation-name: q2;
+    animation-duration: 2s;
+}
+
+#q3 {
+    position: relative;
+    animation-name: q3;
+    animation-duration: 2s;
+}
+
+#q4 {
+    position: relative;
+    animation-name: q4;
+    animation-duration: 2s;
+}   
